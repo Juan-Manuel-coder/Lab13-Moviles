@@ -37,9 +37,9 @@ class MainActivity : ComponentActivity() {
             Lab13_animacionesTheme {
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
-                    containerColor = FondoOscuro // Aplicamos el fondo oscuro general
+                    containerColor = FondoOscuro
                 ) { innerPadding ->
-                    Ejercicio1(modifier = Modifier.padding(innerPadding))
+                    Ejercicio2(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
